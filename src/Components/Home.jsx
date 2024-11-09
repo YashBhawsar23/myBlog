@@ -273,7 +273,7 @@ const Home = () => {
                 <p className="text-gray-600 line-clamp-3">
                   Exploring the principles of modern design and how they
                   contribute to creating engaging and intuitive user experiences
-                  that delight users. Yash Bhawsar
+                  that delight users.
                 </p>
               </div>
             </a>
