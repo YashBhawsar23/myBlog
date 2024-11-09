@@ -122,7 +122,6 @@ const Signup = () => {
 
   return (
     <>
-      {/* <Navbar /> */}
       <div className="flex min-h-screen w-full flex-col items-center justify-center bg-gradient-to-br from-indigo-50 to-violet-50">
         <div className="w-96 rounded-2xl bg-white p-8 shadow-xl">
           <div className="mb-8 flex gap-4">
@@ -271,7 +270,6 @@ const Signup = () => {
           </form>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
