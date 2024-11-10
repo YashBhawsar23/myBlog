@@ -166,7 +166,7 @@ const Navbar = () => {
                 d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
               />
             </svg>
-            <span className="ml-2 text-xl font-bold text-gray-800">
+            <span to="/" className="ml-2 text-xl font-bold text-gray-800">
               BlogHub
             </span>
           </Link>
