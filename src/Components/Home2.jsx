@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 const Home = () => {
   const image =
     "https://media.istockphoto.com/id/492735396/photo/girl-in-field-with-kitten-and-affectionate-puppy.jpg?s=612x612&w=0&k=20&c=wtUzoS8RJx1BfC54yvcXgQfobTqLSLUV3ScKzHbDSwU=";
-  const placeholderImage =
-    "https://images.unsplash.com/photo-1731005446956-2851a5e79534?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
   // Sample articles data
   const articles = [
@@ -20,23 +18,71 @@ const Home = () => {
         "Owning a pet offers more than companionship; it's a unique and fulfilling bond that enhances mental and emotional well-being. Whether it's a dog wagging its tail, a cat purring on the couch, or a fish gliding through water, pets bring a sense of connection that enriches their owners' lives.",
       featured: true,
     },
-    {
-      id: "user-experiences",
-      category: "Design",
-      title: "Creating Beautiful User Experiences",
-      date: "January 21, 2024",
-      image: placeholderImage,
-      excerpt:
-        "Exploring the principles of modern design and how they contribute to creating engaging and intuitive user experiences that delight users.",
-    },
+
     {
       id: "ai-everyday-life",
       category: "Technology",
       title: "The Rise of AI in Everyday Life",
       date: "January 22, 2024",
-      image: placeholderImage,
+      image:
+        "https://urbeuniversity.edu/post_assets/Le9zsr8bQmv7gmZW40UXiVaPsGcpVwaY65mw28tU.webp",
       excerpt:
-        "An overview of how AI is reshaping everyday life, from personal assistants to smart home devices.",
+        "Artificial intelligence (AI) has swiftly transitioned from a futuristic concept to an integral part of our daily lives, transforming everything from how we work and communicate to how we shop, learn, and entertain ourselves.",
+    },
+
+    {
+      id: "Fast fashion",
+      category: "Lifestyle",
+      title: "The Rise and Impact of Fast Fashion: A Look Behind the Seams",
+      date: "January 22, 2024",
+      image:
+        "https://nextmsc.com/nextmsc-stg/blogimage/Things-You-Should-Know-about-Fast-Fashion.jpg",
+      excerpt:
+        "Fast fashion has become a defining characteristic of the modern clothing industry, providing affordable, on-trend styles at breakneck speeds.",
+    },
+
+    {
+      id: "Breakfast",
+      category: "Food and Nutrition",
+      title: "The Power of Breakfast: Why Starting Your Day Right Matters",
+      date: "January 22, 2024",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Breakfast_at_the_Black_Bear_Diner.jpg/800px-Breakfast_at_the_Black_Bear_Diner.jpg",
+      excerpt:
+        "Breakfast has long been hailed as the most important meal of the day—and for good reason. A well-balanced breakfast doesn’t just satisfy morning hunger; it sets the tone for energy, focus, and overall well-being throughout the day.",
+    },
+    {
+      id: "Travel",
+      category: "Travel and Adventure",
+      title:
+        "The Joy of Traveling: Discovering New Places, Cultures, and Perspectives",
+      date: "January 22, 2024",
+      image:
+        "https://akm-img-a-in.tosshub.com/aajtak/images/story/202406/66691948cf6a2-travelling-12430430-16x9.jpg?size=948:533",
+      excerpt:
+        "Traveling offers far more than just a change of scenery; it’s a transformative experience that enriches our understanding of the world and ourselves. Whether it’s a spontaneous weekend getaway, a cultural exploration across continents,",
+    },
+    {
+      id: "5G Technology",
+      category: "Technology",
+      title:
+        "5G Technology: Revolutionizing Connectivity and Shaping the Future",
+      date: "January 22, 2024",
+      image:
+        "https://www.logic-fruit.com/wp-content/uploads/2023/05/The-Future-of-5G-Technology-Introduction-01.jpg.webp",
+      excerpt:
+        "The arrival of 5G technology is transforming the digital landscape, offering speeds up to 100 times faster than its predecessor, 4G. This fifth generation of mobile networks promises not only faster downloads but also improved connectivity,",
+    },
+    {
+      id: "5G Technology",
+      category: "Technology",
+      title:
+        "5G Technology: Revolutionizing Connectivity and Shaping the Future",
+      date: "January 22, 2024",
+      image:
+        "https://www.logic-fruit.com/wp-content/uploads/2023/05/The-Future-of-5G-Technology-Introduction-01.jpg.webp",
+      excerpt:
+        "The arrival of 5G technology is transforming the digital landscape, offering speeds up to 100 times faster than its predecessor, 4G. This fifth generation of mobile networks promises not only faster downloads but also improved connectivity,",
     },
   ];
 

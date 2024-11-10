@@ -206,12 +206,12 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="hover:text-indigo-600">
-                  Travel
+                  Travel and Adventure
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-indigo-600">
-                  Food
+                  Food and Nutrition
                 </a>
               </li>
             </ul>
