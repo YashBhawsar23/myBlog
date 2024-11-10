@@ -83,6 +83,7 @@
 
 import React from "react";
 import { useParams, Link } from "react-router-dom";
+import Notfound from "./Notfound";
 
 const Article = () => {
   const { id } = useParams();
@@ -115,7 +116,11 @@ Pets bring more than just joy; they bring healing, purpose, and a unique kind of
   const article = getArticle(id);
 
   if (!article) {
-    return <div>Article not found</div>;
+    return (
+      <div>
+        <Notfound />
+      </div>
+    );
   }
 
   // Split content by double line breaks to create paragraphs

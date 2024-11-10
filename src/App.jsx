@@ -8,6 +8,7 @@ import Navbar from "./Components/Navbar";
 import Signup from "./Components/Signup";
 import Home2 from "./Components/Home2";
 import Article from "./Articles/Articles";
+import Notfound from "./Articles/Notfound";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       {/* <Home /> */}
       {/* <Footer /> */}
       <Router>
+        {/* <Notfound /> */}
         <Navbar />
         <Routes>
           {/* <Route path="/article/:id" element={<ArticlePage />} /> */}
