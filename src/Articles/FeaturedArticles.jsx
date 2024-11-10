@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const AllArticles = () => {
+const FeaturedArticles = () => {
   const image =
     "https://media.istockphoto.com/id/492735396/photo/girl-in-field-with-kitten-and-affectionate-puppy.jpg?s=612x612&w=0&k=20&c=wtUzoS8RJx1BfC54yvcXgQfobTqLSLUV3ScKzHbDSwU=";
 
@@ -167,4 +167,4 @@ const AllArticles = () => {
   );
 };
 
-export default AllArticles;
+export default FeaturedArticles;

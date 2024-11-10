@@ -74,15 +74,14 @@ const Home = () => {
         "The arrival of 5G technology is transforming the digital landscape, offering speeds up to 100 times faster than its predecessor, 4G. This fifth generation of mobile networks promises not only faster downloads but also improved connectivity,",
     },
     {
-      id: "5G Technology",
+      id: "Self-Driving Cars",
       category: "Technology",
-      title:
-        "5G Technology: Revolutionizing Connectivity and Shaping the Future",
+      title: "Self-Driving Cars: Navigating the Future of Transportation",
       date: "January 22, 2024",
       image:
-        "https://www.logic-fruit.com/wp-content/uploads/2023/05/The-Future-of-5G-Technology-Introduction-01.jpg.webp",
+        "https://mindy-support.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2019/06/self-drive-decis.jpeg.webp",
       excerpt:
-        "The arrival of 5G technology is transforming the digital landscape, offering speeds up to 100 times faster than its predecessor, 4G. This fifth generation of mobile networks promises not only faster downloads but also improved connectivity,",
+        "Self-driving cars are no longer a distant dream; they’re a fast-evolving reality that promises to change how we think about transportation. Equipped with cutting-edge artificial intelligence, sensors, and complex algorithms,",
     },
   ];
 
