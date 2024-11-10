@@ -51,38 +51,6 @@ const Home = () => {
       excerpt:
         "Breakfast has long been hailed as the most important meal of the day—and for good reason. A well-balanced breakfast doesn’t just satisfy morning hunger; it sets the tone for energy, focus, and overall well-being throughout the day.",
     },
-    // {
-    //   id: "Travel",
-    //   category: "Travel and Adventure",
-    //   title:
-    //     "The Joy of Traveling: Discovering New Places, Cultures, and Perspectives",
-    //   date: "January 22, 2024",
-    //   image:
-    //     "https://akm-img-a-in.tosshub.com/aajtak/images/story/202406/66691948cf6a2-travelling-12430430-16x9.jpg?size=948:533",
-    //   excerpt:
-    //     "Traveling offers far more than just a change of scenery; it’s a transformative experience that enriches our understanding of the world and ourselves. Whether it’s a spontaneous weekend getaway, a cultural exploration across continents,",
-    // },
-    // {
-    //   id: "5G Technology",
-    //   category: "Technology",
-    //   title:
-    //     "5G Technology: Revolutionizing Connectivity and Shaping the Future",
-    //   date: "January 22, 2024",
-    //   image:
-    //     "https://www.logic-fruit.com/wp-content/uploads/2023/05/The-Future-of-5G-Technology-Introduction-01.jpg.webp",
-    //   excerpt:
-    //     "The arrival of 5G technology is transforming the digital landscape, offering speeds up to 100 times faster than its predecessor, 4G. This fifth generation of mobile networks promises not only faster downloads but also improved connectivity,",
-    // },
-    // {
-    //   id: "Self-Driving Cars",
-    //   category: "Technology",
-    //   title: "Self-Driving Cars: Navigating the Future of Transportation",
-    //   date: "January 22, 2024",
-    //   image:
-    //     "https://mindy-support.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2019/06/self-drive-decis.jpeg.webp",
-    //   excerpt:
-    //     "Self-driving cars are no longer a distant dream; they’re a fast-evolving reality that promises to change how we think about transportation. Equipped with cutting-edge artificial intelligence, sensors, and complex algorithms,",
-    // },
   ];
 
   return (

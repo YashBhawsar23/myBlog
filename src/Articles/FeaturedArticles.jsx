@@ -88,41 +88,6 @@ const FeaturedArticles = () => {
   return (
     <section className="bg-gradient-to-b from-slate-50 to-slate-100 min-h-screen py-12">
       <div className="container max-w-6xl p-6 mx-auto space-y-8">
-        {/* Featured Article */}
-        {/* <Link
-          to={`/article/${articles[0].id}`}
-          className="block mx-auto group focus:outline-none"
-        >
-          <div className="bg-white rounded-2xl overflow-hidden shadow-lg transition-transform duration-300 hover:shadow-xl lg:grid lg:grid-cols-12 hover:-translate-y-1">
-            <div className="lg:col-span-7 relative overflow-hidden">
-              <img
-                src={articles[0].image}
-                alt="Featured post"
-                className="object-cover w-full h-64 sm:h-96 transition-transform duration-500 group-hover:scale-105"
-              />
-              <div className="absolute top-4 left-4 bg-indigo-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-                Featured
-              </div>
-            </div>
-            <div className="p-8 lg:col-span-5 flex flex-col justify-center">
-              <div className="space-y-4">
-                <span className="text-indigo-600 font-medium">
-                  {articles[0].category}
-                </span>
-                <h3 className="text-3xl font-bold text-gray-900 group-hover:text-indigo-600 transition-colors duration-300">
-                  {articles[0].title}
-                </h3>
-                <span className="text-sm text-gray-500">
-                  {articles[0].date}
-                </span>
-                <p className="text-gray-600 leading-relaxed">
-                  {articles[0].excerpt}
-                </p>
-              </div>
-            </div>
-          </div>
-        </Link> */}
-
         {/* Article Grid */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {articles.slice(1).map((article, index) => (
