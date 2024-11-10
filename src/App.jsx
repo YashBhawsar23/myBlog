@@ -21,9 +21,6 @@ function App() {
         {/* <Notfound /> */}
         <Navbar />
         <Routes>
-          {/* <Route path="/article/:id" element={<ArticlePage />} /> */}
-          {/* <BlogPost /> */}
-          {/* <Route path="/" element={<Home />} /> */}
           <Route path="/" element={<Home2 />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="*" element={<Notfound />} />

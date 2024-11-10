@@ -156,7 +156,7 @@ const FeaturedArticles = () => {
         {/* More Articles Button */}
         <div className="flex justify-center pt-8">
           <Link
-            to="/articles"
+            to="/allArticles"
             className="px-8 py-3 font-medium text-white bg-indigo-600 rounded-lg hover:bg-indigo-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           >
             Read more articles

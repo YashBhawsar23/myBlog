@@ -18,7 +18,6 @@ const AllArticles = () => {
         "Owning a pet offers more than companionship; it's a unique and fulfilling bond that enhances mental and emotional well-being. Whether it's a dog wagging its tail, a cat purring on the couch, or a fish gliding through water, pets bring a sense of connection that enriches their owners' lives.",
       featured: true,
     },
-
     {
       id: "ai-everyday-life",
       category: "Technology",
@@ -29,9 +28,8 @@ const AllArticles = () => {
       excerpt:
         "Artificial intelligence (AI) has swiftly transitioned from a futuristic concept to an integral part of our daily lives, transforming everything from how we work and communicate to how we shop, learn, and entertain ourselves.",
     },
-
     {
-      id: "Fast fashion",
+      id: "fast-fashion",
       category: "Lifestyle",
       title: "The Rise and Impact of Fast Fashion: A Look Behind the Seams",
       date: "January 22, 2024",
@@ -40,9 +38,8 @@ const AllArticles = () => {
       excerpt:
         "Fast fashion has become a defining characteristic of the modern clothing industry, providing affordable, on-trend styles at breakneck speeds.",
     },
-
     {
-      id: "Breakfast",
+      id: "breakfast",
       category: "Food and Nutrition",
       title: "The Power of Breakfast: Why Starting Your Day Right Matters",
       date: "January 22, 2024",
@@ -52,7 +49,7 @@ const AllArticles = () => {
         "Breakfast has long been hailed as the most important meal of the day—and for good reason. A well-balanced breakfast doesn’t just satisfy morning hunger; it sets the tone for energy, focus, and overall well-being throughout the day.",
     },
     {
-      id: "Travel",
+      id: "travel",
       category: "Travel and Adventure",
       title:
         "The Joy of Traveling: Discovering New Places, Cultures, and Perspectives",
@@ -60,10 +57,10 @@ const AllArticles = () => {
       image:
         "https://akm-img-a-in.tosshub.com/aajtak/images/story/202406/66691948cf6a2-travelling-12430430-16x9.jpg?size=948:533",
       excerpt:
-        "Traveling offers far more than just a change of scenery; it’s a transformative experience that enriches our understanding of the world and ourselves. Whether it’s a spontaneous weekend getaway, a cultural exploration across continents,",
+        "Traveling offers far more than just a change of scenery; it’s a transformative experience that enriches our understanding of the world and ourselves.",
     },
     {
-      id: "5G Technology",
+      id: "5g-technology",
       category: "Technology",
       title:
         "5G Technology: Revolutionizing Connectivity and Shaping the Future",
@@ -71,58 +68,112 @@ const AllArticles = () => {
       image:
         "https://www.logic-fruit.com/wp-content/uploads/2023/05/The-Future-of-5G-Technology-Introduction-01.jpg.webp",
       excerpt:
-        "The arrival of 5G technology is transforming the digital landscape, offering speeds up to 100 times faster than its predecessor, 4G. This fifth generation of mobile networks promises not only faster downloads but also improved connectivity,",
+        "The arrival of 5G technology is transforming the digital landscape, offering speeds up to 100 times faster than its predecessor, 4G. This fifth generation of mobile networks promises not only faster downloads but also improved connectivity.",
     },
     {
-      id: "Self-Driving Cars",
+      id: "self-driving-cars",
       category: "Technology",
       title: "Self-Driving Cars: Navigating the Future of Transportation",
       date: "January 22, 2024",
       image:
         "https://mindy-support.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2019/06/self-drive-decis.jpeg.webp",
       excerpt:
-        "Self-driving cars are no longer a distant dream; they’re a fast-evolving reality that promises to change how we think about transportation. Equipped with cutting-edge artificial intelligence, sensors, and complex algorithms,",
+        "Self-driving cars are no longer a distant dream; they’re a fast-evolving reality that promises to change how we think about transportation.",
+    },
+    {
+      id: "climate-change",
+      category: "Environment",
+      title: "Climate Change: Urgency and Global Response",
+      date: "February 10, 2024",
+      image:
+        "https://dattmedi.com/blog/wp-content/uploads/2023/02/What-is-Climate-Change-and-what-are-its-causes_-1024x767.webp",
+      excerpt:
+        "The impact of climate change is undeniable, and it's reshaping ecosystems, weather patterns, and entire communities. As global temperatures rise, so does the urgency for a unified response.",
+    },
+    {
+      id: "electric-vehicles",
+      category: "Technology",
+      title: "Electric Vehicles: Paving the Road to a Sustainable Future",
+      date: "February 12, 2024",
+      image:
+        "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/electric-vehicle.jpg",
+      excerpt:
+        "Electric vehicles are at the forefront of the shift toward eco-friendly transportation, promising reduced emissions and cleaner air. Discover the innovations driving this change.",
+    },
+    {
+      id: "urban-gardening",
+      category: "Lifestyle",
+      title: "Urban Gardening: Cultivating Green Spaces in Cities",
+      date: "February 15, 2024",
+      image:
+        "https://celebrateurbanbirds.org/wp-content/uploads/2016/09/stock-photo-garden-in-urban-at-sukumwit-bangkok-360954980-1920x1235.jpg",
+      excerpt:
+        "In dense urban environments, green spaces can be scarce. Urban gardening offers a sustainable solution, allowing city dwellers to cultivate their own slices of nature.",
+    },
+    {
+      id: "mindfulness-at-work",
+      category: "Wellness",
+      title: "Mindfulness at Work: Enhancing Productivity and Well-being",
+      date: "February 18, 2024",
+      image:
+        "https://www.alliancevirtualoffices.com/virtual-office-blog/wp-content/uploads/2022/01/00-Featured-Mindfulness-at-Work-1140x500.png",
+      excerpt:
+        "Mindfulness practices are transforming workplaces, helping employees reduce stress, boost focus, and enhance overall well-being.",
+    },
+    {
+      id: "cryptocurrency",
+      category: "Finance",
+      title: "Cryptocurrency 101: Navigating the World of Digital Currency",
+      date: "February 20, 2024",
+      image:
+        "https://www.shutterstock.com/image-illustration/top-7-cryptocurrency-tokens-by-600nw-2152214777.jpg",
+      excerpt:
+        "Cryptocurrencies like Bitcoin and Ethereum are reshaping financial landscapes, offering new opportunities—and challenges—in the digital economy.",
+    },
+    {
+      id: "the-gig-economy",
+      category: "Economy",
+      title: "The Gig Economy: Redefining the Future of Work",
+      date: "February 25, 2024",
+      image:
+        "https://www.safetyandhealthmagazine.com/ext/resources/images/2017/11-nov/gig.jpg?t=1508425591&width=768",
+      excerpt:
+        "With freelance platforms and remote work on the rise, the gig economy is transforming traditional job structures and offering flexible employment options.",
+    },
+    {
+      id: "smart-homes",
+      category: "Technology",
+      title: "Smart Homes: Living in the Age of Connectivity",
+      date: "February 27, 2024",
+      image: "https://www.techtarget.com/rms/onlineImages/iota-smart_home.jpg",
+      excerpt:
+        "Smart homes are revolutionizing how we live, allowing us to control lighting, security, and even appliances from our smartphones, creating a seamless digital lifestyle.",
+    },
+    {
+      id: "sustainable-fashion",
+      category: "Lifestyle",
+      title: "Sustainable Fashion: Style with a Conscience",
+      date: "February 28, 2024",
+      image:
+        "https://images.squarespace-cdn.com/content/v1/59a706d4f5e2319b70240ef9/1517960975081-02LAD012OV2D2J812AHW/AdobeStock_54132491.jpeg?format=1500w",
+      excerpt:
+        "As awareness of environmental impact grows, sustainable fashion is challenging the traditional industry by offering eco-friendly and ethical alternatives.",
+    },
+    {
+      id: "sustainable-fashion",
+      category: "Lifestyle",
+      title: "Sustainable Fashion: Style with a Conscience",
+      date: "February 28, 2024",
+      image:
+        "https://www.fashionbystyles.com/wordpress/wp-content/uploads/2024/02/DALL%C2%B7E-2024-05-22-10.22.03-A-vibrant-and-inspirational-header-image-for-an-article-titled-Embracing-a-Greener-Future_-Eco-Friendly-and-Sustainable-Fashion-Trends-for-2024.-The-1536x878.webp",
+      excerpt:
+        "As awareness of environmental impact grows, sustainable fashion is challenging the traditional industry by offering eco-friendly and ethical alternatives.",
     },
   ];
 
   return (
     <section className="bg-gradient-to-b from-slate-50 to-slate-100 min-h-screen py-12">
       <div className="container max-w-6xl p-6 mx-auto space-y-8">
-        {/* Featured Article */}
-        {/* <Link
-          to={`/article/${articles[0].id}`}
-          className="block mx-auto group focus:outline-none"
-        >
-          <div className="bg-white rounded-2xl overflow-hidden shadow-lg transition-transform duration-300 hover:shadow-xl lg:grid lg:grid-cols-12 hover:-translate-y-1">
-            <div className="lg:col-span-7 relative overflow-hidden">
-              <img
-                src={articles[0].image}
-                alt="Featured post"
-                className="object-cover w-full h-64 sm:h-96 transition-transform duration-500 group-hover:scale-105"
-              />
-              <div className="absolute top-4 left-4 bg-indigo-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-                Featured
-              </div>
-            </div>
-            <div className="p-8 lg:col-span-5 flex flex-col justify-center">
-              <div className="space-y-4">
-                <span className="text-indigo-600 font-medium">
-                  {articles[0].category}
-                </span>
-                <h3 className="text-3xl font-bold text-gray-900 group-hover:text-indigo-600 transition-colors duration-300">
-                  {articles[0].title}
-                </h3>
-                <span className="text-sm text-gray-500">
-                  {articles[0].date}
-                </span>
-                <p className="text-gray-600 leading-relaxed">
-                  {articles[0].excerpt}
-                </p>
-              </div>
-            </div>
-          </div>
-        </Link> */}
-
         {/* Article Grid */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {articles.slice(1).map((article, index) => (
@@ -154,14 +205,14 @@ const AllArticles = () => {
         </div>
 
         {/* More Articles Button */}
-        <div className="flex justify-center pt-8">
+        {/* <div className="flex justify-center pt-8">
           <Link
-            to="/articles"
+            to="/allArticles"
             className="px-8 py-3 font-medium text-white bg-indigo-600 rounded-lg hover:bg-indigo-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           >
             Read more articles
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );
