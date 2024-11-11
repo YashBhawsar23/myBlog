@@ -9,11 +9,13 @@ import Article from "./Articles/Articles";
 import Notfound from "./Articles/Notfound";
 import FeaturedArticles from "./Articles/FeaturedArticles";
 import AllArticles from "./Articles/Allarticles";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home2 />} />
