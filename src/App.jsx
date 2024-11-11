@@ -18,11 +18,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home2 />} />
           <Route path="about" element={<AboutPage />} />
-          <Route path="*" element={<Notfound />} />
           <Route path="featured" element={<FeaturedArticles />} />
-          <Route path="allArticles" element={<AllArticles />} />
+          <Route path="/all-articles" element={<AllArticles />} />
           <Route path="/article/:id" element={<Article />} />
           <Route path="signup" element={<Signup />} />
+          <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />
       </Router>
